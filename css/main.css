@@ -113,6 +113,9 @@ section .imgbx img{
 .nav li a:hover{
     color: #ff2562;
 }
+.hamburger{
+    display:none;
+}
 @keyframes fade-in{
     0%{
         opacity: 0;
@@ -133,6 +136,7 @@ section .imgbx img{
 }
 @media (max-width:991px){
     .hamburger{
+        display: block;
         position: fixed;
         top: 20px;
         right: 20px;
